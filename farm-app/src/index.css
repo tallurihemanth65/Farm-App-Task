@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bg-img {
+  background-image: url("./utilities/farmbg.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modal-header {
+  border: 0px !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.modal-content {
+  border: 0px !important;
+}
+.modal-footer {
+  border: 0px !important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
